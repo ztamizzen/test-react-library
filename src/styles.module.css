@@ -1,9 +1,17 @@
 /* add css module styles here (optional) */
 
 .test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+    margin: 2em;
+    padding: 0.5em;
+    border: 2px solid #000;
+    font-size: 2em;
+    text-align: center;
+}
+
+.mine {
+    border: 3px solid purple;
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: justify;
 }
