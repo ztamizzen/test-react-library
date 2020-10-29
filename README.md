@@ -1,6 +1,7 @@
 # sj-component-library
 
 > Made with create-react-library
+> Extends Material-UI
 
 [![NPM](https://img.shields.io/npm/v/sj-component-library.svg)](https://www.npmjs.com/package/sj-component-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -15,12 +16,12 @@ npm install --save sj-component-library
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'sj-component-library'
+import { SjButton } from 'sj-component-library'
 import 'sj-component-library/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <SjButton>A button</SjButton>
   }
 }
 ```
